@@ -12,5 +12,10 @@ function decno() {
 
 function saveno() {
   console.log("Value saved: " + value);
+  let valueStr = value + ", ";
+  saveEl.textContent += valueStr;
+  value = 0;
+  document.getElementById("value").innerHTML = value;
 }
+
 
