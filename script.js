@@ -1,4 +1,5 @@
 let value = 0;
+let saveEl = document.getElementById("save-el");
 
 function addno() {
   value++;
@@ -17,5 +18,6 @@ function saveno() {
   value = 0;
   document.getElementById("value").innerHTML = value;
 }
+
 
 
