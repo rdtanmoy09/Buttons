@@ -9,3 +9,8 @@ function decno() {
   value--;
   document.getElementById("value").innerHTML = value;
 }
+
+function saveno() {
+  console.log("Value saved: " + value);
+}
+
